@@ -1,0 +1,19 @@
+<ion-content
+  [scrollEvents]="true"
+  
+  (ionScroll)="handleScroll($any($event))"
+  (ionScrollEnd)="handleScrollEnd()"
+  class="ion-padding"
+>
+  <div class="container2">
+
+    <div *ngFor="let uzi of messages" class="sor">
+      <div  [ngClass]="uzi.username=='JAttila'?'jobb':'bal'" class="message">
+        <p class="my-0">{{uzi.username}}</p>
+        <p class="my-0 mb-4">{{uzi.text}}</p>
+      </div>
+      <!-- <div class="col">{{uzi.text}}</div> -->
+    </div>
+    <div class="vege"></div>
+  </div>
+</ion-content>  

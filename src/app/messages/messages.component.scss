@@ -1,0 +1,29 @@
+.message{
+    width: 80%;
+    display: block;
+    padding: 5px;
+    margin:5px 0;
+}
+
+.sor::after{
+    content:"";
+    clear:both;
+    display: table;
+}
+.jobb{
+    float:right;
+    background-color: rgb(107, 228, 146);
+    border-radius: 10px;
+}
+
+.bal{
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+
+
+.container2{
+    background-color: #ddd!important;
+    display: block;
+    padding: 10px;
+}
